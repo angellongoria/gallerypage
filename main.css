@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  color: rgba(255,193,204,1.00);
+  background-color: #f8f8f8;
+}
+
+/* Navigation Bar */
+header {
+  font-size: 1.5rem;
+  background-color:rgba(255,193,204,1.00);
+  background-image: url("data:image/svg+xml,%3Csvg width='40' height='1' viewBox='0 0 40 1' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0h20v1H0z' fill='%23ed89bf' fill-opacity='0.4' fill-rule='evenodd'/%3E%3C/svg%3E");
+  color:argba(255,193,204,1.00);
+  padding: 1rem;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 1rem;
+}
+
+nav ul li a {
+  color: rgba(255,193,204,1.00);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+	
+  background-color:white;
+  color:rgba(248,171,198,1.00);
+  padding: 5rem 0;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 5rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.5rem;
+}
+
+
+
+/* Gallery Section */
+#gallery {
+  padding: 2rem;
+  text-align: center;
+	background-image: url("data:image/svg+xml,%3Csvg width='40' height='1' viewBox='0 0 40 1' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0h20v1H0z' fill='%23ed89bf' fill-opacity='0.4' fill-rule='evenodd'/%3E%3C/svg%3E");
+	background-color:rgba(255,193,204,1.00);
+}
+
+#gallery h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+	
+	}
+
+.gallery-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.gallery-container img {
+  width: 75%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.gallery-container img:hover {
+  transform: scale(1.5);
+}
+
+ Saint Letha's Fruit Sando - Google Reviews
+        body {
+			font-size: 5rem;
+			text-align: center;
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .review {
+            border-bottom: 1px solid #ddd;
+            padding: 15px 0;
+        }
+        .review:last-child {
+            border-bottom: none;
+        }
+        .review-header {
+            display: flex;
+            align-items: center;
+        }
+        .review-header img {
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            margin-right: 10px;
+        }
+        .review-header .name {
+            font-weight: bold;
+            font-size: 16px;
+        }
+        .review-header .date {
+            font-size: 12px;
+            color: #888;
+            margin-left: 10px;
+        }
+        .star-rating {
+            display: flex;
+            margin-top: 5px;
+        }
+        .star-rating span {
+            color: gold;
+            font-size: 18px;
+        }
+        .review-text {
+            margin-top: 10px;
+            font-size: 14px;
+            color: #333;
+        }
+        .review-footer {
+            margin-top: 10px;
+            font-size: 12px;
+            color: #888;
+        }
+/* Footer */
+footer {
+  background-color:rgba(255,193,204,1.00);
+  background-image: url("data:image/svg+xml,%3Csvg width='40' height='1' viewBox='0 0 40 1' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0h20v1H0z' fill='%23ed89bf' fill-opacity='0.4' fill-rule='evenodd'/%3E%3C/svg%3E");
+  position:inherit;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align:end;
+  padding: 1rem;
+}
+
+footer p {
+  font-size: 1rem;
+  position: fixed;
+  bottom:0px;
+  height:40px;
+  width:100%;
+}
+        
