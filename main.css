@@ -11,7 +11,7 @@ body {
   background-color: #f8f8f8;
 }
 
-/* Navigation Bar */
+
 header {
   font-size: 1.5rem;
   background-color:rgba(255,193,204,1.00);
@@ -40,7 +40,7 @@ nav ul li a:hover {
   text-decoration: underline;
 }
 
-/* Hero Section */
+
 .hero {
 	
   background-color:white;
@@ -60,7 +60,7 @@ nav ul li a:hover {
 
 
 
-/* Gallery Section */
+/
 #gallery {
   padding: 2rem;
   text-align: center;
@@ -153,7 +153,7 @@ nav ul li a:hover {
             font-size: 12px;
             color: #888;
         }
-/* Footer */
+
 footer {
   background-color:rgba(255,193,204,1.00);
   background-image: url("data:image/svg+xml,%3Csvg width='40' height='1' viewBox='0 0 40 1' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0h20v1H0z' fill='%23ed89bf' fill-opacity='0.4' fill-rule='evenodd'/%3E%3C/svg%3E");
